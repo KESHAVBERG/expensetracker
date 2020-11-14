@@ -1,0 +1,83 @@
+.delete {
+    color      : brown;
+    margin-left: 150px;
+    margin-top : -20px;
+
+    display: block;
+}
+
+.TransSation {
+    margin-top    : 20px;
+    width         : 50%;
+    box-shadow    : 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding-left  : 10px;
+    padding       : 5px;
+    display       : flex;
+    flex-direction: column;
+}
+
+.TransSation h6 {
+    text-decoration: underline;
+
+}
+
+span {
+    padding-left: 10px;
+   flex-wrap: nowrap;
+   flex-direction: row;
+    flex-direction: column;
+
+}
+
+.minusAmount
+{
+    color: red;
+}
+.plus{
+color: green;
+}
+
+
+
+@media(max-width:829px) {
+    .TransSation {
+        width: 70%;
+
+    }
+}
+
+@media(max-width:569px) {
+    .TransSation {
+        width: 100%;
+
+    }
+
+    .delete {
+        margin-left: 150px;
+    }
+}
+
+@media(max-width:392px) {
+    .TransSation {
+        width       : 100%;
+        padding-left: 0;
+    }
+
+    .delete {
+        margin-left: 150px;
+    }
+}
+
+@media(max-width:269px) {
+    .TransSation {
+        width       : 100%;
+        padding-left: 0;
+    }
+
+    .delete {
+        margin-left     : 150px;
+        background-color: rgba(220, 20, 20, 0.603);
+        color           : black;
+        font-weight     : bold;
+    }
+}

@@ -1,0 +1,28 @@
+.AddTransation{
+    /* background-color: rgba(223, 33, 33, 0.473); */
+    margin-top:20px ;
+    
+}
+
+.AddTransation h4{
+    color: rgb(122, 4, 233);
+}
+
+.AddTransation label{
+    font-size: 15px;
+    padding-right: 10px;
+    color: rgb(132, 81, 180);
+}
+
+.AddTransation button{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgba(180, 134, 223, 0.747);
+}
+
+input{
+    color: rgb(187, 115, 253);
+    border: none;
+    border-bottom: 1px rgb(198, 118, 214) ridge;
+}

@@ -1,0 +1,39 @@
+.IcomeExpence {
+    padding-top     : 20px;
+    background-color: rgb(255, 255, 255);
+    display         : flex;
+    padding-left    : 6px;
+    padding-bottom  : 10px;
+    width           : 50%;
+    border-bottom: 1px black ridge;
+
+}
+
+#expence {
+    padding-left: 30px;
+}
+
+#income h4 {
+    color: green;
+}
+
+#income h6 {
+    color: rgb(55, 192, 55);
+}
+
+#expence h4 {
+    color: rgb(231, 15, 15);
+}
+
+#expence h6 {
+    color: rgb(204, 135, 135);
+}
+@media(max-width:635px){
+    .IcomeExpence{
+        width: 100%;
+    }
+}
+@media(max-width:635px){
+    .IcomeExpence{
+border: none;    }
+}
